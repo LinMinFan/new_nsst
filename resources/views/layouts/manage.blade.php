@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <meta content="This is the new iNSST community system." name="description"/>
     <meta content="imin" name="author"/>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="_token" content="{{ csrf_token() }}">
 
     @stack('meta')
 

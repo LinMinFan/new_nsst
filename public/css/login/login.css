@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-logo {
+    margin: 40px auto 20px;
+}
+
+.login {
+    background-color: #666;
+}
+
+div.login-bg {
+    background: url(../../img/login/bg-white-lock.png) repeat;
+}
+
+.wrapper {
+    max-width: 360px;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 30px 40px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+input.full-with {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    height: 32px;
+    border-radius: 0 5px 5px 0;
+}
+
+.i-border-radius {
+    border-radius: 5px 0 0 5px;
+}
+
+a.usecard {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+a.usecard:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+@media(max-width: 575px) {
+    .wrapper {
+        margin: 10px;
+    }
+}
+
+@media(max-width:424px) {
+    .wrapper {
+        padding: 30px 10px;
+        margin: 5px;
+    }
+
+}
