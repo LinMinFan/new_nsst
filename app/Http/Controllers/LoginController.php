@@ -21,4 +21,11 @@ class LoginController extends Controller
         
 	    return view('auth.login');
     }
+
+    public function postLogin(request $request)
+    {
+    	
+        
+	    return redirect()->back()->with('error','登入失敗');
+    }
 }
