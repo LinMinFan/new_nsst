@@ -14,7 +14,7 @@
 <!-- BEGIN BODY -->
 <body class="page-md login">
     <div class="login-logo text-center p-3">
-        <img src="{{ asset('img/login/logo-big.png') }}" alt="">
+        <img src="{{ asset('img/logo/logo-big.png') }}" alt="">
     </div>
     <div class="login-bg wrapper">
         <div class="h5 text-center text-white">{{trans('login.welcome')}}</div>
